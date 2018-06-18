@@ -1,0 +1,66 @@
+body{
+  font-family:"Arial", Serif;
+  overflow-x:hidden;
+}
+section{
+background: url(img/theme2.jpg);
+    height: 90.1%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	display: table;
+	overflow: hidden;
+	margin-top: -20px;
+}
+.navbar{
+	background: url(img/theme2.jpg);
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand{
+	min-height: 5px;
+	padding: 0 55px 15px 5px;
+	margin-top: -80px;
+}
+.navbar-default .navbar-nav li a {
+	color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a:hover,  .navbar-default .navbar-nav li a.active{
+	color: #fff;
+}
+.title22{
+  color: #fff;
+  padding: 20px;
+  font-size: 35px;
+  background-color: transparent;
+}
+#main22{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+  background-color: transparent;
+}
+#main12{
+  background-color: transparent;
+  display: table;
+  position: fixed;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 20%;
+}
+.text{
+	color: #ad1860;
+	text-align: center;
+	font-size: 18px;
+}
+.text1{
+ color: #dbc718;
+}
+.text2{
+color: #16cc3d;
+}
+.text3{
+color: #0d1dd8;
+}

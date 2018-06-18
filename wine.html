@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet" />
+  <link href="wine.css" rel="stylesheet" />
+  <link href="aos.css" rel="stylesheet" />
+</head>
+
+<body>
+   
+ <section> 
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a class="active" href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="men.html">Mens</a>
+    <a href="service.html">Womens</a>
+    <a href="jewellary.html">Jowellery</a>
+    <a href="watchshoes.html">Electronic Networks</a>
+    <a href="wine.html">Wine Yard</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+       <section>
+       <div class="padding">
+        <div class="container">
+          <nav class="navbar">
+            <span class="open-slide">
+              <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+              </a>
+            </span>
+            <span id="main22">
+               <span class="title22">Tsiky</span>
+            </span>
+          </nav>
+            <div class="row" data-aos="flip-left" data-aos-duration="1000">
+                <div class="col-sm-4">
+                    <a href="payment.html" class="btn btn-default btn-lg"><img src="img/wine2.jpg" class="image-responsive" border="0"></a>
+                    </br>
+                    <a href="payment.html" class="btn btn-default btn-lg" id="hahaha">155.50$</a>
+                </div>
+               
+                <div class="col-sm-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                     <a href="payment.html" class="btn btn-default btn-lg"><img src="img/wine1.jpg" class="image-responsive" border="0"></a>
+                    </br>
+                    <a href="payment.html" class="btn btn-default btn-lg">195.50$</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="payment.html" class="btn btn-default btn-lg"><img src="img/wine2.jpg" class="image-responsive" border="0"></a>
+                    </br>
+                    <a href="payment.html" class="btn btn-default btn-lg" >105.50$</a>
+                </div>
+                
+            </div>  
+          </div>
+          <div class="container">
+            <div class="row">
+                   
+                <div class="col-sm-4">
+                    <a href="payment.html" class="btn btn-default btn-lg" data-aos-delay="900"><img src="img/wine1.jpg" class="image-responsive" border="0"></a>
+                    </br>
+                    <a href="payment.html" class="btn btn-default btn-lg" id="hahaha">155.50$</a>
+                </div>
+                <div class="col-sm-4" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="900">
+                       <a href="payment.html" class="btn btn-default btn-lg"><img src="img/wine4.jpg" class="image-responsive" border="0"></a>
+                      </br>
+                      <a href="payment.html" class="btn btn-default btn-lg" id="hahaha">155.50$</a>
+                </div>
+                
+            </div>
+          </div>
+          </div>
+      <div class="padding">
+        <div class="container">
+          <div id="myDIV" data-aos-duration="1000" data-aos="flip-top" class="col-sm-12">
+            <center>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative vendors using a shopping search engine.</center>
+              <br>
+              <br>
+            As of 2016, customers can shop online using a range of different computers and devices, including desktop computers, laptops, tablet computers and smartphones.
+            <br>
+            <br>
+            <center>Statistics show that in 2012, Asia-Pacific increased their international sales over 30% giving them over $433 billion in revenue. That is a $69 billion difference between the U.S. revenue of $364.66 billion. It is estimated that Asia-Pacific will increase by another 30% in the year 2013 putting them ahead by more than one-third of all global ecommerce sales.</center>
+          </div>
+        </div>
+      </div>
+      <div class="padding">
+        <div class="container">
+          <center><div id="bottom11">
+              <a onclick="myFunction()" class="button" href="catogyrie.html"> Previous </a>
+              <a onclick="myFunction()" class="button2"> Explore </a>
+              <a onclick="myFunction()" class="button1" href="Jewellary.html"> Next </a>
+          </div></center>
+        </div>
+      </div>
+  
+        </section>
+            <script type="text/javascript">
+                $('section').mousemove(function(e) {
+                  // body...
+                   var moveX = (e.pageX * -1 / 19);
+                   var moveY = (e.pageY * -1 / 19);
+                   $(this).css('background-position', moveX + 'px ' + moveY +'px')
+                })
+            </script>
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myDIV");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+              }
+            </script>
+              
+            <!--<div class="row">
+                <div class="col-sm-3">
+                    <img src="img/134.jpg" class="image-responsive">
+                    <br>
+                     <a href="payment.html" class="btn btn-default btn-lg">225.00$</a>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/okk.jpg" class="image-responsive">
+                    </br>
+                    <a href="payment.html" class="btn btn-default btn-lg">155.50$</a>
+                </div>
+                <div class="col-sm-3">
+                   <img src="img/ohh2.jpg" class="image-responsive">
+                    <br>
+                    <a href="payment.html" class="btn btn-default btn-lg">185.00$</a>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/188.jpg" class="image-responsive">
+                    </br>
+                    <a href="payment.html" class="btn btn-default btn-lg">195.50$</a>
+                </div> 
+            </div>     -->  
+       
+
+        <!--<footer class="container-fluid text-center">
+        	   <div class="col-sm-4">
+        	   	   <h3>Contact Us</h3>
+        	   	   <br>
+        	   	   <h4>57 avenue jean jaures, 94110 Arcueil 
+        	   	   	<br>
+        	   	     paladugukondalrao@gmail.com 
+        	   	   <br>
+        	   	   01 00 00 00 39
+        	   	   </h4>
+        	   </div>
+        	   <div class="col-sm-4">
+        	   	    <h3>Connect</h3>
+        	   	    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        	   	    <a href="https://www.google.com/" class="fa fa-google"></a>
+        	   	    <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+        	   	    <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        	   	    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        	   	    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        	   </div>
+        	   <div class="col-sm-4">
+        	   	   <img src="img/ko.jpg" class="icon">
+        	   </div>
+        </footer>   -->
+
+        <script type="text/javascript" src="aos.js"></script>      	
+        <script type="text/javascript">
+          AOS.init();
+        </script>
+
+  
+        <script>
+          function openSlideMenu(){
+            document.getElementById('side-menu').style.width = '760px';
+            document.getElementById('main22').style.marginLeft = '770px';
+          }
+
+          function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main22').style.marginLeft = '0';
+          }
+        </script>
+        
+</body>
+</html>

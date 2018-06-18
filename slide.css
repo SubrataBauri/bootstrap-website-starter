@@ -1,0 +1,126 @@
+/* slides landing page */
+/*#home{
+	height: 100vh;
+	overflow: hidden;
+}
+#home section{
+	height: 100vh;
+}
+#home section h1{ 
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 100vh;
+	font-size: 20px;
+}
+#home section h3{ 
+	margin: 0;
+	padding: 0;
+	line-height: 100vh;
+	text-align: center;
+	font-size: 15px;
+}
+#home section:nth-child(1){
+	background: url(img/mountains.jpeg) no-repeat center center fixed;
+}
+#home section:nth-child(2){
+	background: url(img/mountains1.png) no-repeat center center fixed;
+}
+#home section:nth-child(3){
+	background: url(img/red.png) no-repeat center center fixed;
+}
+#home section:nth-child(4){
+	background: url(img/snow.png) no-repeat center center fixed;
+}
+*/
+/*body{
+	background: url(img/bcg11.jpg) no-repeat center center fixed;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	display: table;
+}*/
+#cloths-button{
+	position: relative;
+	display: table;
+	background: transparent;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #8611c6;
+	font-size: 19px solid 5px;
+}
+#cloths-button1{
+	position: relative;
+	display: table;
+	background: transparent;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #fff; 
+	font-size: 19px solid 5px;
+}
+#cloths-button2{
+	position: relative;
+	display: table;
+	background: transparent;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #2ccc08;
+	font-size: 19px solid 5px;
+}
+#watches{
+	color: #fff;
+}
+#hahaha{
+	margin-bottom: 30px;
+}
+section{
+	background : url(img/bcg11.jpg);
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	background-size: cover;
+	display: table;
+	overflow: hidden;
+}
+
+.title22{
+  color: #fff;
+  padding: 20px;
+  font-size: 35px;
+  background-color: transparent;
+}
+#main22{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+  background-color: transparent;
+}
+.adapter{
+	width: 100%;
+}
+.adapter1{
+	margin-top: 20px;
+	max-width: 100%;
+	height: auto;
+	padding-top: 100px;
+}
+.adapter2{
+	margin-top: 20px;
+	max-width: 100%;
+	height: auto;
+	padding-top: 100px;
+}
+.adapter3{
+	max-width: 100%;
+	height: auto;
+	padding-top: 100px;
+	margin-top: 20px;
+}
+.adapter4{
+	max-width: 100%;
+	height: auto;
+	padding-top: 130px;
+	margin-top: 20px;
+}
