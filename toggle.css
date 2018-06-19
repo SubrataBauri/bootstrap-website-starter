@@ -5,6 +5,7 @@ body{
 }
 
 .navbar{
+  height: 100%;
   background-color:#101cc9;
   overflow:hidden;
   height:60px;

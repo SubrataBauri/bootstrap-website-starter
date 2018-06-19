@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title>Tsiky SalesForce Platfrom</title>
@@ -16,7 +19,7 @@
   <script src="jquery.fullpage.js"></script>
 </head>
 
-<body>
+<body data-hijacking="off" data-animation="scaleDown">
        <!--<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
            <div class="container-fluid">
            	   <div class="navbar-header">
@@ -38,10 +41,13 @@
            	   	
            	   </div>
            </div>       	
-       </nav> --><nav class="navbar">
+       </nav> -->
+       <section class="cd-section visible">
+        <div style="height: 100%;">
+          <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
-        <svg width="30" height="30">
+        <svg width="30" height="100">
             <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
             <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
             <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
@@ -71,20 +77,29 @@
            <h3>The best online shopping experience.</h3>
            <a href="catogyrie.html" class="btn btn-default btn-lg">Explore Our Brands</a>
        </div>
-  </div>
-  
-<div id="myDIV" data-aos-duration="1000" data-aos="flip-top" >
-<center>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative vendors using a shopping search engine.</center>
+  </div>    
+        </div>
+        
+       </section>
+       
+ <section class="cd-section">
+   <div style="width: 50%;">
+      <div id="myDIV" class="slide-down" data-aos-duration="1000" data-aos="flip-top" >
+<center><p style="color: black;">Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative vendors using a shopping search engine.</p></center>
   <br>
   <br>
-As of 2016, customers can shop online using a range of different computers and devices, including desktop computers, laptops, tablet computers and smartphones.
+<p style="color: black;">As of 2016, customers can shop online using a range of different computers and devices, including desktop computers, laptops, tablet computers and smartphones.</p>
 <br>
 <br>
-<center>Statistics show that in 2012, Asia-Pacific increased their international sales over 30% giving them over $433 billion in revenue. That is a $69 billion difference between the U.S. revenue of $364.66 billion. It is estimated that Asia-Pacific will increase by another 30% in the year 2013 putting them ahead by more than one-third of all global ecommerce sales.</center>
-</div>
+<center><p style="color: black;">Statistics show that in 2012, Asia-Pacific increased their international sales over 30% giving them over $433 billion in revenue. That is a $69 billion difference between the U.S. revenue of $364.66 billion. It is estimated that Asia-Pacific will increase by another 30% in the year 2013 putting them ahead by more than one-third of all global ecommerce sales.</p></center>
+</div>    
+     
+   </div>
+ </section> 
+
 
 <div>
-    <a onclick="myFunction()" class="button"> Explore </a>
+    <a class="button" id="explore"> Explore </a>
     <a onclick="myFunction()" class="button1" href="about.html"> Next </a>
 </div>
 
@@ -97,9 +112,18 @@ function myFunction() {
         x.style.display = "none";
     }
 }
+
+$(document).ready(function(){
+    $("#explore").click(function(e){
+      e.preventDefault();
+      $("html, body").animate({ scrollTop: 600 }, 1000);
+    });
+  });
+
 </script>
   
   <script>
+
     function openSlideMenu(){
       document.getElementById('side-menu').style.width = '760px';
       document.getElementById('main').style.marginLeft = '770px';
@@ -204,6 +228,11 @@ function myFunction() {
         <script type="text/javascript">
         	AOS.init();
         </script>
+
+        <script src="js/jquery-2.1.4.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/velocity.ui.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
         
 </body>
 </html>
